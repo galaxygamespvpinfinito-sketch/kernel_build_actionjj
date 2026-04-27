@@ -38,10 +38,10 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/galaxygamespvpinfinito-sketch/A176B
+          kernel-dir: s5e8535
+          kernel-branch: mainj
+          config: a17x_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
