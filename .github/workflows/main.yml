@@ -40,7 +40,7 @@ jobs:
       with:
           kernel-url: https://github.com/galaxygamespvpinfinito-sketch/android_kernel_samsung_s5e8535
           kernel-dir: s5e8535
-          kernel-branch: main
+          kernel-branch: lineage-23.2
           config: a17x_defconfig
           arch: arm64
           aosp-gcc: true
