@@ -38,9 +38,9 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/galaxygamespvpinfinito-sketch/A176B
+          kernel-url: https://github.com/galaxygamespvpinfinito-sketch/android_kernel_samsung_s5e8535
           kernel-dir: s5e8535
-          kernel-branch: mainj
+          kernel-branch: main
           config: a17x_defconfig
           arch: arm64
           aosp-gcc: true
